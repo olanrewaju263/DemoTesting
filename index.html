@@ -1,0 +1,14 @@
+
+        String[] carModels = new String[10];
+        carModels[0] = "benz";
+        carModels[1] = "toyota";
+        carModels[2] = "jaguar";
+        carModels[3] = "mazada";
+        carModels[8] = "honda";
+        System.out.println(carModels[8]);
+
+        String[] fordName = carModels.clone();
+        for (int i = 0; i < carModels.length; i++) {
+            if (carModels[i] == "honda") {
+                System.out.println("That is the correct car");
+                break;
